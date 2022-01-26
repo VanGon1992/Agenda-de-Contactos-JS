@@ -1,0 +1,110 @@
+*,
+::after,
+*,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.container {
+    height: 100vh;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+header {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0 auto;
+    letter-spacing: 0.1rem;
+    background-color: tomato;
+    height: 15rem;
+    width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    color: white;
+}
+
+.formulario-datos {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-datos input {
+    margin: 1rem 0rem;
+    line-height: 3rem;
+    background-color: rgb(68, 68, 68);
+    outline: 0;
+    border: 0;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 1.3rem;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.formulario-datos input:focus {
+    border: 1px solid rgb(145, 215, 255);
+}
+
+.formulario-datos button {
+    margin: 2rem 0rem;
+    padding: 2rem;
+    background-color: rgb(106, 218, 143);
+    border: 0;
+    outline: 0;
+    border-radius: 0.8rem;
+    width: 25%;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.formulario-datos button:hover {
+    background-color: rgb(130, 195, 238);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.listado-contactos {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.5rem;
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.icono {
+    color: tomato;
+    cursor: pointer;
+}
